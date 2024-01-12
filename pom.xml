@@ -24,11 +24,12 @@
     </dependency>
   </dependencies>
 
-  <scm>
-    <connection>scm:git:fakeurl</connection>
-    <developerConnection>scm:git:fakeurl</developerConnection>
-    <url>scm:git:fakeurl</url>
-  </scm>
+<scm>
+    <connection>scm:git:https://github.com/prudhvi1247/mvn-project.git</connection>
+    <developerConnection>scm:git:https://github.com/prudhvi1247/mvn-project.git</developerConnection>
+    <url>https://github.com/prudhvi1247/mvn-project.git</url>
+</scm>
+
 <build>
     <plugins>
         <plugin>
