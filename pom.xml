@@ -46,13 +46,13 @@
                 </execution>
             </executions>
 			<configuration>
-				<format>${maven.build.timestamp}-[${buildNumber}</format>
-				<items>
-					<item>buildNumbe</item>
-				</items>
-				<doCheck>true</doCheck>
-				<doUpdate>true</doUpdate>
-			</configuration>
+    <format>${maven.build.timestamp}-{0}</format>
+    <items>
+        <item>buildNumber</item>
+    </items>
+    <doCheck>true</doCheck>
+    <doUpdate>true</doUpdate>
+    </configuration>
 			
         </plugin>
         <plugin>
