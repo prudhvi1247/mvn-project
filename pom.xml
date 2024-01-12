@@ -46,9 +46,9 @@
                 </execution>
             </executions>
 			<configuration>
-				<format>${maven.build.timestamp}-${buildNumber}</format>
+				<format>${maven.build.timestamp}-[${buildNumber}</format>
 				<items>
-					<item>${maven.build.timestamp}</item>
+					<item>buildNumbe</item>
 				</items>
 				<doCheck>true</doCheck>
 				<doUpdate>true</doUpdate>
