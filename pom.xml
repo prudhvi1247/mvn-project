@@ -25,10 +25,10 @@
   </dependencies>
 
 <scm>
-    <connection>scm:git:https://github.com/prudhvi1247/mvn-project.git</connection>
     <developerConnection>scm:git:https://github.com/prudhvi1247/mvn-project.git</developerConnection>
-    <url>https://github.com/prudhvi1247/mvn-project.git</url>
+    <url>https://github.com/prudhvi1247/mvn-project</url>
 </scm>
+
 
 <build>
     <plugins>
